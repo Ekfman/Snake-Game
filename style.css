@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(147, 173, 147);
+    backdrop-filter: blur(2px);
+    background: url("assets/colorPlates.jpg") no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(0, 149, 255, 0.819);
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: -35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-shadow: -1px 1px 2px rgb(47, 203, 68),
+    1px 1px 2px rgb(47, 203, 68),
+   1px -1px 0 rgb(47, 203, 68),
+  -1px -1px rgb(47, 203, 68);
+}
+
+h2{
+    color: rgb(0, 149, 255);
+    background-color: rgba(105, 244, 98, 0.814);
+    font-size: 25px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 12px;
+    text-shadow: -2px 2px 0 rgb(226, 215, 67);
+}
+
+.snakeArt{
+    height: 200px;
+    width: 600px;
+}
+
+
+#score{
+    display: flex;
+    font-size: 20px;
+    background-color: rgba(0, 149, 255, 0.819);
+    color: rgb(224, 207, 53);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+
+#reps{
+    text-shadow: -1px 1px 2px rgb(53, 126, 186),
+    1px 1px 2px rgb(53, 126, 186),
+   1px -1px 0 rgb(53, 126, 186),
+  -1px -1px 0 rgb(85, 205, 74);
+  padding-top: 12px;
+
+}
+
+ #pr{text-shadow: -1px 1px 2px rgb(53, 126, 186),
+    1px 1px 2px rgb(53, 126, 186),
+   1px -1px 0 rgb(53, 126, 186),
+  -1px -1px 0 rgb(85, 205, 74);
+  padding-top: 12px;
+ }
+
+
+div{
+    margin-right: 18px;
+    padding: 5px 10px;
+    padding-right: 20px;
+    height: 30px;
+}
+
+section{
+    text-align: center;
+}
+
+td{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+
+    
+}
+
+table{
+    background-color: rgb(85, 205, 74);
+    margin: auto;
+    width: auto;
+    margin-top: 16px;
+    
+}
+
+#tableOutline{
+    background-color: rgba(0, 149, 255, 0.819);
+    height: 550px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(105, 244, 98, 0.814);
+    border-radius: 30px;
+    color: white;
+    border: solid 1px white;
+}
+
+button:hover{
+    filter: brightness(50%);
+}
+
+
+.snakeBody{
+    background-color: rgb(97, 204, 97);
+}
+
+.protein{
+    background: url("assets/cartoonWheySmall.png") no-repeat center;
+    background-size: cover;
+    background-color: white;
+
+}
+
+.gameOver{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20px;
+    width: 40px;
+}
